@@ -14,5 +14,9 @@ namespace FutBotDataBaseWebAPI.Models
         public string ContentUrl { get; set; }
         [JsonProperty("name")]
         public string Name { get; set; }
+        [JsonProperty("userName")]
+        public string UserName { get; set; }
+
+
     }
 }
