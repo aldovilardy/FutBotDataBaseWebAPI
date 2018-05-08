@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3619d472486d4e95b9a36a4521cbe26b" Name="Diagram1">
+        <EntityTypeShape EntityType="FutBotModel.Categorias" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.DatosCuriosos" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.Etiquetas" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.Imagenes" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.Participantes" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.Preguntas" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.PreguntasXEtiqueta" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.MiTablaPreguntasTemp" Width="1.5" PointX="7.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutBotModel.vEtiquetasAleatorias" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="FutBotModel.FK_DatosCuriosos_Etiquetas" ManuallyRouted="false" />
+        <AssociationConnector Association="FutBotModel.FK_Imagenes_Etiquetas" ManuallyRouted="false" />
+        <AssociationConnector Association="FutBotModel.FK_PreguntasXEtiqueta_Etiquetas" ManuallyRouted="false" />
+        <AssociationConnector Association="FutBotModel.FK_PreguntasXEtiqueta_Preguntas" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
